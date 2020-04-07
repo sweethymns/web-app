@@ -1,0 +1,36 @@
+@charset "utf-8";
+
+// SETTINGS
+@import "~bulma/sass/utilities/_all";
+@import "settings/settings.initial-variables";
+@import "settings/settings.derived-variables";
+
+
+
+
+
+// GENERIC
+@import "settings/settings.generic-variables";
+
+
+
+
+
+// ELEMENTS
+@import "elements/elements.title";
+
+
+
+
+
+// COMPONENTS
+@import "components/components.menu";
+@import "components/components.navbar";
+
+
+
+
+
+// BULMA AND BUEFY STYLES
+@import "~bulma";
+@import "~buefy/src/scss/buefy";
