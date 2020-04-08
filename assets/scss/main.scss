@@ -2,6 +2,7 @@
 
 // SETTINGS
 @import "~bulma/sass/utilities/_all";
+@import "settings/settings.core";
 @import "settings/settings.initial-variables";
 @import "settings/settings.derived-variables";
 
@@ -26,6 +27,7 @@
 // COMPONENTS
 @import "components/components.menu";
 @import "components/components.navbar";
+@import "components/components.sidebar";
 
 
 
@@ -34,3 +36,10 @@
 // BULMA AND BUEFY STYLES
 @import "~bulma";
 @import "~buefy/src/scss/buefy";
+
+
+
+
+
+// UTILITIES
+@import "utilities/utilities.spacings";

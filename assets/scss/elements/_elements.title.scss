@@ -1,7 +1,7 @@
-$title-color: $black-bis;
+$title-color: $black-ter;
 // $title-family: false !default
-// $title-size: $size-3 !default
-// $title-weight: $weight-semibold !default
+$title-size: $size-1;
+$title-weight: $weight-bold;
 // $title-line-height: 1.125 !default
 // $title-strong-color: inherit !default
 // $title-strong-weight: inherit !default
@@ -10,9 +10,9 @@ $title-color: $black-bis;
 
 $subtitle-color: $grey;
 // $subtitle-family: false !default
-// $subtitle-size: $size-5 !default
+$subtitle-size: $size-4;
 // $subtitle-weight: $weight-normal !default
 // $subtitle-line-height: 1.25 !default
 // $subtitle-strong-color: $grey-darker !default
 // $subtitle-strong-weight: $weight-semibold !default
-// $subtitle-negative-margin: -1.25rem !default
+$subtitle-negative-margin: -0.75rem;

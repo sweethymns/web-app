@@ -1,0 +1,31 @@
+/* ========================================================================
+  #CORE
+  ======================================================================== */
+
+// Baseline grid lines height.
+// Every spacing metric should be based on this.
+
+$global-baseline:     0.375rem;
+
+
+
+// How many grid lines should our spacing unit variants span?
+// Each value should be an unitless integer.
+
+$global-spacing-unit-factor-tiny:   1;   // 0.375rem
+$global-spacing-unit-factor-small:  2;   // 0.75rem
+$global-spacing-unit-factor:        4;   // 1.5rem
+$global-spacing-unit-factor-large:  8;   // 3rem
+$global-spacing-unit-factor-huge:   16;  // 6rem
+
+
+
+// Spacing values are determined based on your project’s global baseline grid.
+// It is not recommended that you modify these following variables
+// (it can break your vertical rhythm), but if you need to, you can.
+
+$global-spacing-unit:       $global-baseline * $global-spacing-unit-factor;
+$global-spacing-unit-tiny:  $global-baseline * $global-spacing-unit-factor-tiny;
+$global-spacing-unit-small: $global-baseline * $global-spacing-unit-factor-small;
+$global-spacing-unit-large: $global-baseline * $global-spacing-unit-factor-large;
+$global-spacing-unit-huge:  $global-baseline * $global-spacing-unit-factor-huge;

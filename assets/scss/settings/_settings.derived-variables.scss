@@ -1,30 +1,30 @@
 $primary: $blue;
 
 // $info: $cyan !default
-$success: $green;
-$warning: $yellow;
-$danger: $red;
+// $success: $green !default
+// $warning: $yellow !default
+// $danger: $red !default
 
 // $light: $white-ter !default
 // $dark: $grey-darker !default
 
 // // Invert colors
-$orange-invert: findColorInvert($orange);
-$yellow-invert: findColorInvert($yellow);
-$green-invert: findColorInvert($green);
+// $orange-invert: findColorInvert($orange) !default
+// $yellow-invert: findColorInvert($yellow) !default
+// $green-invert: findColorInvert($green) !default
 // $turquoise-invert: findColorInvert($turquoise);
 // $cyan-invert: findColorInvert($cyan);
-$blue-invert: findColorInvert($blue);
+// $blue-invert: findColorInvert($blue) !default
 // $purple-invert: findColorInvert($purple) !default
-$red-invert: findColorInvert($red);
+// $red-invert: findColorInvert($red) !default
 
 $primary-invert: findColorInvert($primary);
 // $info-invert: $cyan-invert;
-$success-invert: $green-invert;
-$warning-invert: $yellow-invert;
-$danger-invert: $red-invert;
-$light-invert: findColorInvert($light);
-$dark-invert: findColorInvert($dark);
+// $success-invert: $green-invert !default
+// $warning-invert: $yellow-invert !default
+// $danger-invert: $red-invert !default
+// $light-invert: $dark !default
+// $dark-invert: $light !default
 
 // // General colors
 // $background: $white-ter !default
@@ -33,30 +33,28 @@ $dark-invert: findColorInvert($dark);
 // $border-hover: $grey-light !default
 
 // // Text colors
-$text: $black;
+$text: $black-ter;
 // $text-invert: findColorInvert($text) !default
 // $text-light: $grey !default
-$text-strong: $black;
+$text-strong: $black-ter;
 
 // // Code colors
-$code: $red;
+// $code: $red !default
 // $code-background: $background !default
 
 // $pre: $text !default
 // $pre-background: $background !default
 
 // // Link colors
-$link: $primary;
-
-$link-light: findLightColor($link);
-$link-invert: findColorInvert($link);
+// $link: $blue !default
+// $link-invert: $blue-invert !default
 // $link-visited: $purple !default
 
 // $link-hover: $grey-darker !default
 // $link-hover-border: $grey-light !default
 
 // $link-focus: $grey-darker !default
-$link-focus-border: $primary;
+// $link-focus-border: $blue !default
 
 // $link-active: $grey-darker !default
 // $link-active-border: $grey-dark !default

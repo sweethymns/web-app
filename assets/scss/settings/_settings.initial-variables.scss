@@ -13,20 +13,14 @@
 // $white-bis:    hsl(0, 0%, 98%) !default
 // $white:        hsl(0, 0%, 100%) !default
 
-$deep-orange:  hsl(15, 90%, 60%);
-$orange:       hsl(15, 90%, 60%);
-$yellow:       hsl(54, 90%, 62%);
-$green:        hsl(79, 56%, 56%);
-$dark-green:   hsl(143, 47%, 44%);
+// $orange:       hsl(14,  100%, 53%) !default
+// $yellow:       hsl(48,  100%, 67%) !default
+// $green:        hsl(141, 71%,  48%) !default
 // $turquoise:    hsl(171, 100%, 41%) !default
 // $cyan:         hsl(204, 86%,  53%) !default
-$teal:         hsl(185, 100%, 33%);
-$light-blue:   hsl(199, 63%, 48%);
-$blue:         hsl(219, 57%, 50%);
-$deep-purple:  hsl(261, 45%, 50%);
-$purple:       hsl(289, 48%, 45%);
-$red:          hsl(0, 85%, 61%);
-$pink:         hsl(353, 83%, 63%);
+// $blue:         hsl(217, 71%,  53%) !default
+// $purple:       hsl(271, 100%, 71%) !default
+// $red:          hsl(348, 100%, 61%) !default
 
 // // Typography
 $family-sans-serif: work-sans, sans-serif;
@@ -41,11 +35,11 @@ $family-sans-serif: work-sans, sans-serif;
 // $size-6: 1rem !default
 // $size-7: 0.75rem !default
 
-$weight-light: 300;
-$weight-normal: 400;
-$weight-medium: 500;
-$weight-semibold: 600;
-$weight-bold: 700;
+// $weight-light: 300 !default
+// $weight-normal: 400 !default
+// $weight-medium: 500 !default
+// $weight-semibold: 600 !default
+// $weight-bold: 700 !default
 
 // // Spacing
 // $block-spacing: 1.5rem !default
@@ -59,10 +53,10 @@ $weight-bold: 700;
 // $desktop: 960px + (2 * $gap) !default
 // // 1152px container + 4rem
 // $widescreen: 1152px + (2 * $gap) !default
-$widescreen-enabled: false;
+// $widescreen-enabled: false;
 // // 1344px container + 4rem
 // $fullhd: 1344px + (2 * $gap) !default
-$fullhd-enabled: false;
+// $fullhd-enabled: false;
 
 // // Miscellaneous
 // $easing: ease-out !default

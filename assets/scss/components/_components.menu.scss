@@ -1,2 +1,54 @@
-$menu-item-active-color: $link;
+$menu-item-color: $grey-dark;
+// $menu-item-radius: $radius-small !default
+$menu-item-hover-color: $primary;
+$menu-item-hover-background-color: transparent;
+$menu-item-active-color: $primary;
 $menu-item-active-background-color: transparent;
+
+// $menu-list-border-left: 1px solid $border !default
+// $menu-list-line-height: 1.25 !default
+// $menu-list-link-padding: 0.5em 0.75em !default
+// $menu-nested-list-margin: 0.75em !default
+// $menu-nested-list-padding-left: 0.75em !default
+
+// $menu-label-color: $text-light !default
+// $menu-label-font-size: 0.75em !default
+// $menu-label-letter-spacing: 0.1em !default
+// $menu-label-spacing: 1em !default
+
+.menu-list {
+  a {
+    &:hover {
+      background-color: $menu-item-hover-background-color;
+      color: $menu-item-hover-color;
+
+      .icon {
+        background-color: $menu-item-hover-color;
+        color: $white;
+      }
+    }
+
+    // Modifiers
+    &.is-active {
+      .icon {
+        background-color: $menu-item-hover-color;
+        color: $white;
+      }
+    }
+
+    span {
+      vertical-align: middle;
+    }
+  }
+
+  .icon {
+    border-radius: 50%;
+    background: $background;
+
+    &.is-small {
+      height: 2.75rem;
+      width: 2.75rem;
+      font-size: $size-4;
+    }
+  }
+}

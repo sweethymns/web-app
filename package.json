@@ -1,6 +1,6 @@
 {
   "name": "web-app",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "The SweetHymns Web App built with Nuxt.js",
   "author": "Abel Nieva",
   "private": true,
